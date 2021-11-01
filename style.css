@@ -1,0 +1,97 @@
+body {
+    background: #f1f1f1;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+    width: 90vw;
+    height: 90vh;
+    
+
+}
+
+.card.product .btn {
+    bottom: 1.5rem;
+    max-width: 80%;
+}
+
+.price {
+    font-size: 1.75rem;
+}
+
+@media (max-width: 768px) { 
+    .card-container {
+        margin-bottom: 2rem;
+    }
+}
+
+.navbar navbar-expand-lg navbar-light bg-light{
+   
+    border: 100px;
+    justify-content: space-around;
+
+
+
+}
+
+button {
+    width: 50px;
+    height: 40px;
+
+
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+    margin: 50px auto;
+  }
+  
+  .heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+   background: black;
+ 
+  }
+  
+  .heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+  .heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+  .nbr{
+      display: flex;
+      justify-content: center;
+      margin: 15px auto;
+    
+     
+  }
+
+  .btnDel{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 30px auto;
+      width: 100px;
+      height: 30px;
+      background: coral;
+
+  }
